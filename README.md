@@ -97,6 +97,14 @@ This script will:
 - Print detailed classification reports and confusion matrices.
 - Export the training loss convergence graph to `loss_curve.png`.
 
+### 4. Explainable AI (XAI): Visualize Attention Shifts
+```bash
+python visualize_attention.py
+```
+This module extracts dynamic attention coefficients ($\alpha_{ij}$) across transmission lines to:
+- Pinpoint specific corrupted substations/buses triggering anomalous electrical flow deltas.
+- Generate comparative spatial heatmaps (`attention_analysis.png`) for cyber-physical security audits.
+
 ---
 
 ## 👩‍💻 Author & Research Attribution
